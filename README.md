@@ -21,9 +21,12 @@ Doublox#9803
 
 # Discord 
 
-Don't forget to join us on Discord: D_leak
-If that link doesn't work, Use this: https://discord.gg/zPQUWQ9
-If that link doesn't work, Use this: https://discord.gg/TkCx7mt
+################################################
+Lien du Discord De l'ADX un discord ou nous somme 24h/24h  ^^
+https://discord.gg/mTHfMZVFwY
+##########################################################
+Si vous avez des idées de créations venez me voir en dm
+##########################################################
 
 # Description 
 ```
