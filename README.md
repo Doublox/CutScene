@@ -13,7 +13,7 @@ Doublox#9803
 
 
 
--Install : https://www.youtube.com/watch?v=T6AG20AW3T4
+-Install : https://www.youtube.com/watch?v=Zwjw3Di_p_I
 -Preview : https://streamable.com/uwkyuv
 
 
