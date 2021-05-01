@@ -14,8 +14,6 @@ FiveM Cut Scène  :)
 Doublox#9803
 
 
-
--Install : https://www.youtube.com/watch?v=Zwjw3Di_p_I
 -Preview : https://streamable.com/uwkyuv
 
 
@@ -24,6 +22,7 @@ Doublox#9803
 ################################################
 Lien du Discord De l'ADX un discord ou nous somme 24h/24h  ^^
 https://discord.gg/mTHfMZVFwY
+
 ##########################################################
 Si vous avez des idées de créations venez me voir en dm
 ##########################################################
