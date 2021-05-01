@@ -21,7 +21,7 @@ Doublox#9803
 
 ################################################
 Lien du Discord De l'ADX un discord ou nous somme 24h/24h  ^^
-https://discord.gg/mTHfMZVFwY
+ mTHfMZVFwY
 
 ##########################################################
 Si vous avez des idées de créations venez me voir en dm
