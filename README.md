@@ -5,9 +5,9 @@ CutScene Explication !
 animation for charcreator 
 
 FiveM Cut Scène  :)
-# Disclaimer
+# Disclaimer 
+CutScene Anim your roleplay Scene/intro !
 ### FEEL FREE TO EDIT THE CODE FOR PERSONAL USE!
-### DO NOT SHARE THE WORK AS YOUR OWN!
 ### DO NOT SELL THIS WORK!
 # -= FOR PERSONAL USE ONLY =-
 
