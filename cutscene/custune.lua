@@ -19,7 +19,6 @@ AddEventHandler("axe-cinematic:start", function()
     DoScreenFadeIn(2000)
 
 
-    print("ou3")
     SetCutsceneEntityStreamingFlags('MP_Male_Character', 0, 1) 
     local female = RegisterEntityForCutscene(0,"MP_Female_Character",3,0,64)                                                         
     RegisterEntityForCutscene(PlayerPedId(), 'MP_Male_Character', 0, GetEntityModel(PlayerPedId()), 64)
