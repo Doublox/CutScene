@@ -5,9 +5,13 @@ Simple Natively Supported GTA:O CutScene
 
 # Disclaimer 
 This script add intro cutscene like the GTA:O have.
-### FEEL FREE TO EDIT THE CODE FOR PERSONAL USE!
-### DO NOT SELL THIS WORK!
-# -= FOR PERSONAL USE ONLY =-
+
+
+FEEL FREE TO EDIT THE CODE FOR PERSONAL USE!
+DO NOT SELL THIS WORK!
+
+
+**FOR PERSONAL USE ONLY**
 
 
 ## Contributor
