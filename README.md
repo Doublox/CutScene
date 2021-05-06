@@ -18,12 +18,15 @@ ElecTwix#0418
 
 # Discord 
 
+
 ################################################
-Lien du Discord De l'ADX un discord ou nous somme 24h/24h  ^^
- mTHfMZVFwY
+
+France Discord
+
+Discord.gg/mTHfMZVFwY
 
 ##########################################################
-Si vous avez des idées de créations venez me voir en dm
+If you have any creative ideas, come see me in dm.
 ##########################################################
 
 # Description 
