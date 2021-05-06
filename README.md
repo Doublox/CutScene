@@ -9,27 +9,28 @@ This script add intro cutscene like the GTA:O have.
 ### DO NOT SELL THIS WORK!
 # -= FOR PERSONAL USE ONLY =-
 
-Doublox#9803
-ElecTwix#0418
+
+## Contributor
+**Doublox#9803**
+
+**ElecTwix#0418**
 
 
--Preview : https://streamable.com/uwkyuv
+### Preview Video
+
+https://streamable.com/uwkyuv
 
 
-# Discord 
-
-
-################################################
-
+## Discord 
 France Discord
 
 Discord.gg/mTHfMZVFwY
 
-##########################################################
+### Ideas
 If you have any creative ideas, come see me in dm.
-##########################################################
 
-# Description 
+
+## Description 
 ```
 natively supported GTA:O intro cutscene
 ```
