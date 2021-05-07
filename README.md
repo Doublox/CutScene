@@ -16,7 +16,9 @@ DO NOT SELL THIS WORK!
 
 ## Creator
 **Doublox#9803**
-Translat the readme in english
+
+
+For Translate the readme in english :
 **ElecTwix**
 
 
