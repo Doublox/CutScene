@@ -1,42 +1,53 @@
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDoublox%2FCutScene%2F&count_bg=%238C1134&title_bg=%23555555&icon=&icon_color=%23F10303&title=hits&edge_flat=false"/></a>
 
 # CutScene
-CutScene Explication !
-animation for charcreator 
+Simple Natively Supported GTA:O CutScene
 
-FiveM Cut Scène  :)
 # Disclaimer 
-CutScene Anim your roleplay Scene/intro !
-### FEEL FREE TO EDIT THE CODE FOR PERSONAL USE!v
-### DO NOT SELL THIS WORK!
-# -= FOR PERSONAL USE ONLY =-
-
-Doublox#9803
+This script add intro cutscene like the GTA:O have.
 
 
--Preview : https://streamable.com/uwkyuv
+FEEL FREE TO EDIT THE CODE FOR PERSONAL USE!
+DO NOT SELL THIS WORK!
 
 
-# Discord 
+**FOR PERSONAL USE ONLY**
 
-################################################
-Lien du Discord De l'ADX un discord ou nous somme 24h/24h  ^^
- mTHfMZVFwY
 
-##########################################################
-Si vous avez des idées de créations venez me voir en dm
-##########################################################
+## Creator
+**Doublox#9803**
 
-# Description 
+
+For Translate the readme in english :
+**ElecTwix**
+
+
+### Preview Video
+
+https://streamable.com/uwkyuv
+
+
+## Discord 
+France Discord
+
+Discord.gg/mTHfMZVFwY
+
+### Ideas
+If you have any creative ideas, come see me in dm.
+
+
+## Description 
 ```
-This is a functional CutScene
+natively supported GTA:O intro cutscene
 ```
 
 ### Dependencies
 
-Nothing is a CutScene !!
+None, this script nativly supported.
 
 ### Inspired By
-Native FiveM :D
+
+GTA:O
+Native Fivem.
 
 
