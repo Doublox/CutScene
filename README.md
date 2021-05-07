@@ -14,10 +14,10 @@ DO NOT SELL THIS WORK!
 **FOR PERSONAL USE ONLY**
 
 
-## Contributor
+## Creator
 **Doublox#9803**
-
-**ElecTwix#0418**
+Translat the readme in english
+**ElecTwix**
 
 
 ### Preview Video
