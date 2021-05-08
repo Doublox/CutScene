@@ -33,7 +33,7 @@ France Discord
 Discord.gg/mTHfMZVFwY
 
 ### Ideas
-If you have any creative ideas, come see me in dm.
+If you have any creative ideas, send me a dm.
 
 
 ## Description 
@@ -43,11 +43,10 @@ natively supported GTA:O intro cutscene
 
 ### Dependencies
 
-None, this script nativly supported.
+None, this script natively supported.
 
 ### Inspired By
 
 GTA:O
 Native Fivem.
-
 
