@@ -166,7 +166,14 @@ function sub_b747(ped, a_1)
     end
 end
 
-RegisterCommand("start", function() -- ORDER CREATION
+RegisterCommand("start", function() -- Command for trigger
+	TriggerEvent('introCinematic:start') -- you can use this for trigger the cutscene
+end) 
+
+
+
+RegisterNetEvent('introCinematic:start') -- ORDER CREATION
+AddEventHandler('introCinematic:start', function()
 	PrepareMusicEvent("FM_INTRO_START") --FM_INTRO_START
 	TriggerMusicEvent("FM_INTRO_START") --FM_INTRO_START
     local plyrId = PlayerPedId() -- PLAYER ID
