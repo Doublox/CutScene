@@ -226,11 +226,7 @@ end)
 
 
 function IsMale(ped)
-	if IsPedModel(ped, 'mp_m_freemode_01') then
-		return true
-	else
-		return false
-	end
+	return IsPedModel(ped, 'mp_m_freemode_01')
 end
 
 -- Thanks to PERPGamer to contribut
