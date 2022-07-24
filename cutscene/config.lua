@@ -1,7 +1,7 @@
 Config = {}
 
 Config.WeatherType = "EXTRASUNNY"
-Config.RandomPassengersClothes = false
+Config.RandomPassengersClothes = true
 
 Config.Faces = { 
     [0] = 21, 
