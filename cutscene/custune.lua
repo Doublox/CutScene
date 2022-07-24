@@ -50,29 +50,14 @@ AddEventHandler('introCinematic:start', function()
 
     	local playerId = PlayerPedId()
     
-	if IsPedMale(playerId) then 
-        	RequestCutsceneWithPlaybackList("MP_INTRO_CONCAT", 31, 8)
-    	else 
-        	RequestCutsceneWithPlaybackList("MP_INTRO_CONCAT", 103, 8) 
-    	end
+	if IsPedMale(playerId) then RequestCutsceneWithPlaybackList("MP_INTRO_CONCAT", 31, 8)
+    	else RequestCutsceneWithPlaybackList("MP_INTRO_CONCAT", 103, 8) end
 
     	while not HasCutsceneLoaded() do Wait(10) end --- Waiting for the cutscene to load!
 
-	if IsPedMale(playerId) then
-		RegisterEntityForCutscene(0, 'MP_Male_Character', 3, GetEntityModel(playerId), 0)
-		RegisterEntityForCutscene(playerId, 'MP_Male_Character', 0, 0, 0)
-		SetCutsceneEntityStreamingFlags('MP_Male_Character', 0, 1) 
-
-		local female = RegisterEntityForCutscene(0 ,"MP_Female_Character", 3 ,0 ,64) 
-		NetworkSetEntityInvisibleToNetwork(female, true)
-	else
-		RegisterEntityForCutscene(0, 'MP_Female_Character', 3, GetEntityModel(playerId), 0)
-		RegisterEntityForCutscene(playerId, 'MP_Female_Character', 0, 0, 0)
-		SetCutsceneEntityStreamingFlags('MP_Female_Character', 0, 1) 
-        
-		local male = RegisterEntityForCutscene(0, "MP_Male_Character", 3, 0, 64) 
-		NetworkSetEntityInvisibleToNetwork(male, true)
-	end
+	-- Generate the main char ped!
+	if IsPedMale(playerId) then GeneratePed('MP_Male_Character', playerId)
+	else GeneratePed('MP_Female_Character', playerId) end
 
 	local peds = {}
 	for pedIdx = 0, 6, 1 do
@@ -105,6 +90,17 @@ AddEventHandler('introCinematic:start', function()
 
 	-- Done!
 end)
+
+-- Generate main char ped!
+function GeneratePed(modelString, playerId)
+	RegisterEntityForCutscene(0, modelString, 3, GetEntityModel(playerId), 0)
+	RegisterEntityForCutscene(playerId, modelString, 0, 0, 0)
+	SetCutsceneEntityStreamingFlags(modelString, 0, 1) 
+
+	local ped = RegisterEntityForCutscene(0, modelString, 3, 0, 64)
+	
+	NetworkSetEntityInvisibleToNetwork(ped, true)
+end
 
 -- Clear the peds props, all 8 of them!
 function ClearPedProps(ped)
