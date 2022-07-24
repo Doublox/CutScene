@@ -48,12 +48,12 @@ AddEventHandler("introCinematic:start", function()
 	PrepareMusicEvent("FM_INTRO_START") -- ``FM_INTRO_START``
 	TriggerMusicEvent("FM_INTRO_START") -- ``FM_INTRO_START``
 
-    local playerId = PlayerPedId()
+    	local playerId = PlayerPedId()
     
 	if IsPedMale(playerId) then RequestCutsceneWithPlaybackList("MP_INTRO_CONCAT", 31, 8)
-    else RequestCutsceneWithPlaybackList("MP_INTRO_CONCAT", 103, 8) end
+    	else RequestCutsceneWithPlaybackList("MP_INTRO_CONCAT", 103, 8) end
 
-    while not HasCutsceneLoaded() do Wait(10) end --- Waiting for the cutscene to load!
+    	while not HasCutsceneLoaded() do Wait(10) end --- Waiting for the cutscene to load!
 
 	if IsPedMale(playerId) then GeneratePed("MP_Male_Character", "MP_Female_Character", playerId)
 	else GeneratePed("MP_Female_Character", "MP_Male_Character", playerId) end
@@ -67,18 +67,18 @@ AddEventHandler("introCinematic:start", function()
 		end
 
         if not IsEntityDead(peds[pedIdx]) then
-			HandlePassengersClothes(peds[pedIdx], pedIdx)
-            FinalizeHeadBlend(peds[pedIdx])
-            RegisterEntityForCutscene(peds[pedIdx], pedsList[pedIdx], 0, 0, 64)
+		HandlePassengersClothes(peds[pedIdx], pedIdx)
+            	FinalizeHeadBlend(peds[pedIdx])
+            	RegisterEntityForCutscene(peds[pedIdx], pedsList[pedIdx], 0, 0, 64)
         end
     end
 	
 	NewLoadSceneStartSphere(-1212.79, -1673.52, 7, 1000, 0) -- Avoid texture bugs!
 
-    SetWeatherTypeNow(Config.WeatherType) -- Setting the weather type!
-    StartCutscene(4) -- Starting the cutscene!
+    	SetWeatherTypeNow(Config.WeatherType) -- Setting the weather type!
+    	StartCutscene(4) -- Starting the cutscene!
 
-    Wait(31520)
+    	Wait(31520)
 
 	for pedIdx = 0, 6, 1 do DeleteEntity(peds[pedIdx]) end
 
