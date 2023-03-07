@@ -87,7 +87,7 @@ AddEventHandler("introCinematic:start", function()
 end)
 
 -- Generate main char ped!
-function GeneratePed(modelString, modelString2 playerId)
+function GeneratePed(modelString, modelString2, playerId)
 	RegisterEntityForCutscene(0, modelString, 3, GetEntityModel(playerId), 0)
 	RegisterEntityForCutscene(playerId, modelString, 0, 0, 0)
 	SetCutsceneEntityStreamingFlags(modelString, 0, 1) 
